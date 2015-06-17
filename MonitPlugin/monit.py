@@ -21,7 +21,7 @@ def monit_remove():
 
 def monit_install_hookfunc(ee):
 
-    if app.pargs.monit:
+    if ee.pargs.monit:
         """All code for this method lives in this block w.r.t our use-case unless
         u know what ur doing"""
         monit_install()
@@ -29,7 +29,7 @@ def monit_install_hookfunc(ee):
 
 def monit_remove_hookfunc(ee):
 
-    if app.pargs.monit:
+    if ee.pargs.monit:
         """All code for this method lives in this block w.r.t out use-case unless
         u know what ur doing"""
         monit_remove()
@@ -45,7 +45,7 @@ class MonitPlugin4eeController(CementBaseController):
         stacked_on = 'stack'
         stacked_type = 'embedded'
         arguments = [
-            (['--monit'], dict(help="install/remove monit", , action='store_true')),
+            (['--monit'], dict(help="install/remove monit", action='store_true')),
 
         ]
 
