@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-#Monit Plugin
+# Monit Plugin
 from cement.core import foundation, controller, handler, hook
 from cement.core.controller import CementBaseController, expose
 
@@ -17,19 +17,21 @@ def monit_remove():
     print("removing Monit")
 
 # define all hook-funtions required for this plugin
+
+
 def monit_install_hookfunc(ee):
 
     if app.pargs.monit:
-    """All code for this method lives in this block w.r.t our use-case unless
-     u know what ur doing"""
+        """All code for this method lives in this block w.r.t our use-case unless
+        u know what ur doing"""
         monit_install()
 
 
 def monit_remove_hookfunc(ee):
 
     if app.pargs.monit:
-    """All code for this method lives in this block w.r.t out use-case unless
-     u know what ur doing"""
+        """All code for this method lives in this block w.r.t out use-case unless
+        u know what ur doing"""
         monit_remove()
 
 
