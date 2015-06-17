@@ -45,7 +45,7 @@ class MonitPlugin4eeController(CementBaseController):
         stacked_on = 'stack'
         stacked_type = 'embedded'
         arguments = [
-            (['--monit'], dict(help="install/remove monit")),
+            (['--monit'], dict(help="install/remove monit", , action='store_true')),
 
         ]
 
