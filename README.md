@@ -1,1 +1,1 @@
-# Template For 'ee stack' plugin
+# Template For 'ee stack' sample plugin
