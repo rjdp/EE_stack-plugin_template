@@ -1,8 +1,12 @@
 #from __future__ import absolute_import
 import unittest
+<<<<<<< HEAD
 from ..plugin import sample
+=======
+from ..src.plugin import sample_plugin
+>>>>>>> 0f93a87f9cd10b6ae3f0a178342a5608ef10e0ab
 
-class PluginTestCase(unittest.TestCase):
+class SamplePluginTestCase(unittest.TestCase):
 
     def test_sample_install(self):
         """test _sample_install() functionality"""
