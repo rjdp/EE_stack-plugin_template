@@ -21,6 +21,7 @@ setup(name='Monit Plugin 4 ee',  # plugin name,used by package-managers as ID
       author='rajdeep',
       author_email='rajdeep.sharma@rtcamp.com',
       license='MIT',
+      packages=['custom_packages'],
       # move config files and actual plugin at required location
       # if using templates move templates to '/var/lib/ee/templates'
       data_files=[(abspathconfig, ['Config/monit.conf']), 

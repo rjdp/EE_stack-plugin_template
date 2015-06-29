@@ -1,41 +1,41 @@
 #from __future__ import absolute_import
 import unittest
-from ..plugin import monit
+from ..plugin import sample
 
 class PluginTestCase(unittest.TestCase):
 
-    def test_monit_install(self):
-        """test _monit_install() functionality"""
+    def test_sample_install(self):
+        """test _sample_install() functionality"""
         pass
 
-    def test_monit_remove(self):
-        """test _monit_remove() functionality"""
+    def test_sample_remove(self):
+        """test _sample_remove() functionality"""
         pass
 
-    def test_monit_purge(self):
-        """test _monit_purge() functionality"""
+    def test_sample_purge(self):
+        """test _sample_purge() functionality"""
         pass
 
-    def test_monit_status(self):
-        """test _monit_status() functionality"""
+    def test_sample_status(self):
+        """test _sample_status() functionality"""
         pass
 
-    def test_monit_start(self):
-        """test _monit_start() functionality"""
+    def test_sample_start(self):
+        """test _sample_start() functionality"""
         pass
 
-    def test_monit_stop(self):
-        """test _monit_stop() functionality"""
+    def test_sample_stop(self):
+        """test _sample_stop() functionality"""
         pass
 
-    def test_monit_reload(self):
-        """test _monit_reload() functionality"""
+    def test_sample_reload(self):
+        """test _sample_reload() functionality"""
         pass
 
-    def test_monit_restart(self):
-        """test _monit_restart() functionality"""
+    def test_sample_restart(self):
+        """test _sample_restart() functionality"""
         pass
 
-    def test_monit_upgrade(self):
-        """test _monit_upgrade() functionality"""
+    def test_sample_upgrade(self):
+        """test _sample_upgrade() functionality"""
         pass

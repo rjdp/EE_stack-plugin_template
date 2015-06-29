@@ -15,6 +15,8 @@ b) For each argument that we add , we also define a method to mimic
 c) For each subcommand under "ee stack" we define a hook-function which
    which is registered with their respective predefined hooks
 
+d) Use EE-apis .
+
    ...more
 
 """
