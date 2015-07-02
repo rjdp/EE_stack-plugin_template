@@ -1,3 +1,3 @@
 # Avoid reinventing the wheel , use EE-apis .
 
-#contains core EE apis that must be use in EE plugins, if need be
+#contains description for core EE-apis that must be used in EE plugins, if need be
